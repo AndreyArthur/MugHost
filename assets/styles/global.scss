@@ -1,0 +1,59 @@
+$text-default-color: #222222;
+$text-color-primary: #777777;
+$text-color-secondary: #00abf4;
+$text-color-tertiary: #ffffff;
+$text-color-success: #00ff00;
+$text-color-danger: #ff0000;
+$bronze-color: #ab6045;
+$silver-color: #acacb0;
+$gold-color: #fec034;
+$bg-color: #cccccc;
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: 'Open Sans';
+
+  outline: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+
+  font-size: 1.6rem;
+  color: $text-default-color;
+}
+
+.container {
+  max-width: 108rem;
+
+  margin: 0 auto;
+  padding: 0 3%;
+}
+
+.bronze {
+  background-color: $bronze-color;
+}
+
+.silver {
+  background-color: $silver-color;
+}
+
+.gold {
+  background-color: $gold-color;
+}
+
+.success {
+  color: $text-color-success;
+}
+
+.danger {
+  color: $text-color-danger;
+}

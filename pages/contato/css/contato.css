@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans';
+  outline: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  font-size: 1.6rem;
+  color: #222222;
+}
+
+.container {
+  max-width: 108rem;
+  margin: 0 auto;
+  padding: 0 3%;
+}
+
+.bronze {
+  background-color: #ab6045;
+}
+
+.silver {
+  background-color: #acacb0;
+}
+
+.gold {
+  background-color: #fec034;
+}
+
+.success {
+  color: #00ff00;
+}
+
+.danger {
+  color: #ff0000;
+}
+
+header {
+  width: 100%;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .container a:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1rem;
+  text-decoration: none;
+}
+
+header .container a:first-child img {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
+
+header .container a:first-child h2 {
+  color: #00abf4;
+}
+
+header .container a:last-child {
+  margin-top: 2rem;
+}
+
+header .container a:last-child img {
+  width: 5rem;
+  height: 5rem;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin-top: 10%;
+}
+
+main fieldset {
+  border-radius: 2rem;
+  border: 1px solid #ccc;
+}
+
+main fieldset legend {
+  font-weight: bold;
+}
+
+main fieldset legend strong {
+  color: #00abf4;
+}
+
+main fieldset form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem;
+}
+
+main fieldset form label {
+  margin: 2rem 0 0.5rem 0.5rem;
+  text-align: left;
+}
+
+main fieldset form input {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid #ccc;
+}
+
+main fieldset form button {
+  width: 20rem;
+  height: 5rem;
+  position: relative;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%;
+  margin-top: 2rem;
+  border: 0;
+  border-radius: 1rem;
+  background-color: #00abf4;
+  font-size: 1.8rem;
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=contato.css.map */

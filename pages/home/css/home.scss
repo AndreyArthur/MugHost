@@ -1,0 +1,81 @@
+@import '../../../assets/styles/global';
+
+header {
+  width: 100%;
+
+  a {
+    &:last-child {
+      display: flex;
+      align-items: center;
+      
+      padding-top: 1rem;
+
+      text-decoration: none;
+
+      img {
+        width: 5rem;
+        height: 5rem;
+
+        margin-right: 1rem;
+      }
+
+      h2 {
+        color: $text-color-secondary;
+
+      }
+    }
+  } 
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  margin-top: 10%;
+
+  h2 strong {
+    color: $text-color-secondary;
+  }
+
+  .buttons-wraper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    a {
+      width: 40%;
+
+      margin: 0 2.5%;
+
+      button {
+        width: 100%;
+        height: 6rem;
+
+        border: 0;
+        border-radius: 0.8rem;
+
+        font-weight: 600;
+
+        cursor: pointer;
+      }
+
+      &:first-child button {
+        background-color: $text-color-secondary;
+
+        color: $text-color-tertiary;
+      }
+
+      &:last-child button {
+        border: 2px solid $text-color-secondary;
+
+        background-color: $text-color-tertiary;
+
+        color: $text-color-secondary;
+      }
+    }
+  }
+  
+  
+}

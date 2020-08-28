@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans';
+  outline: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  font-size: 1.6rem;
+  color: #222222;
+}
+
+.container {
+  max-width: 108rem;
+  margin: 0 auto;
+  padding: 0 3%;
+}
+
+header {
+  width: 100%;
+}
+
+header a:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1rem;
+  text-decoration: none;
+}
+
+header a:last-child img {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
+
+header a:last-child h2 {
+  color: #00abf4;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin-top: 10%;
+  border-radius: -8rem;
+}
+
+main h2 strong {
+  color: #00abf4;
+}
+
+main .team-wraper {
+  color: #00abf4;
+}
+
+main .team-wraper h2 {
+  font-weight: normal;
+  font-style: italic;
+}
+
+main .team-wraper .cards-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+}
+
+main .team-wraper .cards-wraper .card-wraper {
+  margin: 0 1rem 1rem 1rem;
+  padding: 0.5rem;
+  -webkit-box-shadow: 0.2rem 0.2rem 1rem 0.5rem #cccccc;
+          box-shadow: 0.2rem 0.2rem 1rem 0.5rem #cccccc;
+}
+
+main .team-wraper .cards-wraper .card-wraper p {
+  color: #777777;
+}
+
+@media (max-width: 565px) {
+  .cards-wraper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=sobre.css.map */

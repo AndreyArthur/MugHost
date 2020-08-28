@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans';
+  outline: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  font-size: 1.6rem;
+  color: #222222;
+}
+
+.container {
+  max-width: 108rem;
+  margin: 0 auto;
+  padding: 0 3%;
+}
+
+.bronze {
+  background-color: #ab6045;
+}
+
+.silver {
+  background-color: #acacb0;
+}
+
+.gold {
+  background-color: #fec034;
+}
+
+.success {
+  color: #00ff00;
+}
+
+.danger {
+  color: #ff0000;
+}
+
+header {
+  width: 100%;
+}
+
+header a:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1rem;
+  text-decoration: none;
+}
+
+header a:last-child img {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
+
+header a:last-child h2 {
+  color: #00abf4;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin-top: 10%;
+}
+
+main h2 strong {
+  color: #00abf4;
+}
+
+main .cards-grid {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 2rem;
+}
+
+main .cards-grid a {
+  text-decoration: none;
+}
+
+main .cards-grid a .card {
+  border-radius: 0.8rem;
+  margin: 1.5rem;
+  -webkit-box-shadow: 0.5rem 0.5rem 2rem 0.5rem #cccccc;
+          box-shadow: 0.5rem 0.5rem 2rem 0.5rem #cccccc;
+}
+
+main .cards-grid a .card h3:first-child {
+  border-radius: 0.8rem 0.8rem 0 0;
+  color: #ffffff;
+}
+
+main .cards-grid a .card p {
+  margin: 1rem;
+  /*color: $text-color-primary;*/
+}
+
+main .cards-grid a .card h3:last-child {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%;
+  margin: 1rem;
+  border-top: 0.1rem solid #777777;
+  font-weight: normal;
+  color: #777777;
+}
+
+@media (min-width: 821px) {
+  .cards-grid {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=servicos.css.map */
